@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: rgb(7, 11, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: rgb(147, 164, 183);
+    font-size: 80px;
+    font-weight: bolder;
+}
+.input{
+    height: 300px;
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    background-color: red;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: .1s;
+    transition-property: all;
+}
+.date, .month, .year{
+    margin-top: 30px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+p{
+    color: tan;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.output{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.outputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid white;
+    height: 300px;
+    width: 30%;
+    margin-left: 10px;
+}
+.clear{
+    background-color: green;
+    color: white;
+}
